@@ -1,1 +1,72 @@
-{"sections":{"collection-header":{"type":"collection-header","settings":{"enable":true,"collection_image_enable":false,"parallax":false,"parallax_direction":"left"}},"main-collection":{"type":"main-collection","blocks":{"collection_description":{"type":"collection_description","settings":{}},"product_grid":{"type":"product_grid","settings":{"grid_style":"large"}}},"block_order":["collection_description","product_grid"],"settings":{"enable_sidebar":true,"collapse_filters":true,"enable_color_swatches":false,"enable_sort":true}},"recently-viewed":{"type":"recently-viewed","disabled":true,"settings":{}}},"order":["collection-header","main-collection","recently-viewed"]}
+{
+  "sections": {
+    "collection-header": {
+      "type": "collection-header",
+      "settings": {
+        "enable": true,
+        "collection_image_enable": false,
+        "parallax": false,
+        "parallax_direction": "left"
+      }
+    },
+    "main-collection": {
+      "type": "main-collection",
+      "blocks": {
+        "collection_description": {
+          "type": "collection_description",
+          "settings": {
+          }
+        },
+        "product_grid": {
+          "type": "product_grid",
+          "settings": {
+            "grid_style": "large"
+          }
+        }
+      },
+      "block_order": [
+        "collection_description",
+        "product_grid"
+      ],
+      "settings": {
+        "enable_sidebar": true,
+        "collapse_filters": true,
+        "enable_color_swatches": false,
+        "enable_sort": true
+      }
+    },
+    "recently-viewed": {
+      "type": "recently-viewed",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "758b4575-1bc3-430e-b42a-c589a32cf857": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--18377221701926__758b4575-1bc3-430e-b42a-c589a32cf857-1680517514859b3af5-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<!-- EXPONEA start -->\n{% if collection %}\n<script type=\"text\/javascript\">\n    exponea.track('view_category',{\n        category_name: {{ collection.title | json }},\n        category_id: {{ collection.id | json }}\n    });\n<\/script>\n{% endif %}\n<!-- EXPONEA end -->",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--18377221701926__758b4575-1bc3-430e-b42a-c589a32cf857-1680517514859b3af5-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "lazyload_images": true
+      }
+    }
+  },
+  "order": [
+    "collection-header",
+    "main-collection",
+    "recently-viewed",
+    "758b4575-1bc3-430e-b42a-c589a32cf857"
+  ]
+}
