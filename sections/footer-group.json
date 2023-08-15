@@ -1,1 +1,202 @@
-{"type":"footer","name":"t:sections.footer-group.name","sections":{"975e17fb-663b-426b-9812-375b259a23dc":{"type":"advanced-content","blocks":{"sections--18377222553894__975e17fb-663b-426b-9812-375b259a23dc-1680617899399f01bc-1":{"type":"liquid","settings":{"code":"<div id=\"pixlee_container\"><\/div><script type=\"text\/javascript\">window.PixleeAsyncInit = function() {Pixlee.init({apiKey:'xE3ttXy7awTSEnxPJ4BE'});Pixlee.addSimpleWidget({widgetId:4822314});};<\/script><script src=\"https:\/\/assets.pxlecdn.com\/assets\/pixlee_widget_1_0_0.js\"><\/script>","width":"100%","alignment":"center"}}},"block_order":["sections--18377222553894__975e17fb-663b-426b-9812-375b259a23dc-1680617899399f01bc-1"],"settings":{"full_width":false,"space_around":true,"lazyload_images":true}},"b67c466b-d14f-4855-9ade-f4e699c85d09":{"type":"advanced-content","blocks":{"sections--18172933439772__b67c466b-d14f-4855-9ade-f4e699c85d09-167931964858f463d1-1":{"type":"liquid","settings":{"code":"<!-- TrustBox widget - Horizontal -->\n<div class=\"trustpilot-widget\" data-locale=\"en-GB\" data-template-id=\"5406e65db0d04a09e042d5fc\" data-businessunit-id=\"56bc93040000ff000588cac2\" data-style-height=\"28px\" data-style-width=\"100%\" data-theme=\"light\" data-text-color=\"#212121\">\n  <a href=\"https:\/\/uk.trustpilot.com\/review\/www.icklebubba.com\" target=\"_blank\" rel=\"noopener\">Trustpilot<\/a>\n<\/div>\n<!-- End TrustBox widget -->","width":"100%","alignment":"top-middle"}}},"block_order":["sections--18172933439772__b67c466b-d14f-4855-9ade-f4e699c85d09-167931964858f463d1-1"],"custom_css":[".trustpilot-widget {padding-bottom: 20px;}"],"settings":{"full_width":false,"space_around":false,"lazyload_images":true}},"footer-promotions":{"type":"footer-promotions","disabled":true,"blocks":{"footer-promotions-0":{"type":"promotion","settings":{"enable_image":true,"image_mask":"none","title":"Site-wide promotion","text":"<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>","button_label":"Optional button","button_link":"","color_scheme":"1"}},"footer-promotions-1":{"type":"promotion","settings":{"enable_image":true,"image_mask":"none","title":"Site-wide promotion","text":"<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>","button_label":"Optional button","button_link":"","color_scheme":"3"}},"footer-promotions-2":{"type":"promotion","settings":{"enable_image":true,"image_mask":"none","title":"Site-wide promotion","text":"<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>","button_label":"Optional button","button_link":"","color_scheme":"2"}}},"block_order":["footer-promotions-0","footer-promotions-1","footer-promotions-2"],"settings":{"hide_homepage":false,"image_size":"wide"}},"footer":{"type":"footer","blocks":{"footer-0":{"type":"menu","settings":{"title":"","menu":"footer","enable_account_link":false}},"fbbff7b3-3f0c-46e6-9357-2e3ef0f1d4f2":{"type":"menu","settings":{"title":"","menu":"shopping-with-us","enable_account_link":false}},"footer-2":{"type":"payment","settings":{"show_payment_icons":true,"show_locale_selector":false,"show_currency_selector":false,"show_currency_flags":true}}},"block_order":["footer-0","fbbff7b3-3f0c-46e6-9357-2e3ef0f1d4f2","footer-2"],"settings":{"show_newsletter":false,"newsletter_richtext":"<p>Subscribe today to hear first about our sales<\/p>","footer_main_menu":false,"show_copyright":true,"copyright_text":"","policies_menu":""}}},"order":["975e17fb-663b-426b-9812-375b259a23dc","b67c466b-d14f-4855-9ade-f4e699c85d09","footer-promotions","footer"]}
+{
+  "type": "footer",
+  "name": "t:sections.footer-group.name",
+  "sections": {
+    "df746357-ea27-4611-be2a-555b2a1a3bc2": {
+      "type": "countdown",
+      "blocks": {
+        "sections--20235128176934__df746357-ea27-4611-be2a-555b2a1a3bc2-content-1": {
+          "type": "content",
+          "settings": {
+            "heading": "SUBSCRIBE",
+            "heading_size": "h2",
+            "text": "<h3>Sign up now to stay informed, inspired, connected and get first dibs on exciting promotions, special discounts, and exclusive offers!<\/h3>",
+            "content_alignment": "center"
+          }
+        },
+        "sections--20235128176934__df746357-ea27-4611-be2a-555b2a1a3bc2-timer-1": {
+          "type": "timer",
+          "disabled": true,
+          "settings": {
+            "year": "2025",
+            "month": "01",
+            "day": "1",
+            "hour": "03",
+            "minute": "00",
+            "hide_timer": false,
+            "text": ""
+          }
+        },
+        "sections--20235128176934__df746357-ea27-4611-be2a-555b2a1a3bc2-button-1": {
+          "type": "button",
+          "settings": {
+            "button_link": "shopify:\/\/pages\/sign-up",
+            "button": "SUBSCRIBE NOW",
+            "button_style": "secondary"
+          }
+        }
+      },
+      "block_order": [
+        "sections--20235128176934__df746357-ea27-4611-be2a-555b2a1a3bc2-content-1",
+        "sections--20235128176934__df746357-ea27-4611-be2a-555b2a1a3bc2-timer-1",
+        "sections--20235128176934__df746357-ea27-4611-be2a-555b2a1a3bc2-button-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "layout": "banner",
+        "full_width": true,
+        "color_scheme": "2",
+        "blur_image": false,
+        "overlay_color": "#000",
+        "overlay_opacity": 0,
+        "lazyload_images": true
+      }
+    },
+    "975e17fb-663b-426b-9812-375b259a23dc": {
+      "type": "advanced-content",
+      "blocks": {
+        "sections--18377222553894__975e17fb-663b-426b-9812-375b259a23dc-1680617899399f01bc-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div id=\"pixlee_container\"><\/div><script type=\"text\/javascript\">window.PixleeAsyncInit = function() {Pixlee.init({apiKey:'xE3ttXy7awTSEnxPJ4BE'});Pixlee.addSimpleWidget({widgetId:4822314});};<\/script><script src=\"https:\/\/assets.pxlecdn.com\/assets\/pixlee_widget_1_0_0.js\"><\/script>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "sections--18377222553894__975e17fb-663b-426b-9812-375b259a23dc-1680617899399f01bc-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "lazyload_images": true
+      }
+    },
+    "b67c466b-d14f-4855-9ade-f4e699c85d09": {
+      "type": "advanced-content",
+      "blocks": {
+        "sections--18172933439772__b67c466b-d14f-4855-9ade-f4e699c85d09-167931964858f463d1-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<!-- TrustBox widget - Horizontal -->\n<div class=\"trustpilot-widget\" data-locale=\"en-GB\" data-template-id=\"5406e65db0d04a09e042d5fc\" data-businessunit-id=\"56bc93040000ff000588cac2\" data-style-height=\"28px\" data-style-width=\"100%\" data-theme=\"light\" data-text-color=\"#212121\">\n  <a href=\"https:\/\/uk.trustpilot.com\/review\/www.icklebubba.com\" target=\"_blank\" rel=\"noopener\">Trustpilot<\/a>\n<\/div>\n<!-- End TrustBox widget -->",
+            "width": "100%",
+            "alignment": "top-middle"
+          }
+        }
+      },
+      "block_order": [
+        "sections--18172933439772__b67c466b-d14f-4855-9ade-f4e699c85d09-167931964858f463d1-1"
+      ],
+      "custom_css": [
+        ".trustpilot-widget {padding-bottom: 20px;}"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": false,
+        "lazyload_images": true
+      }
+    },
+    "footer-promotions": {
+      "type": "footer-promotions",
+      "blocks": {
+        "footer-promotions-0": {
+          "type": "promotion",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "title": "Site-wide promotion",
+            "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>",
+            "button_label": "Optional button",
+            "button_link": "",
+            "color_scheme": "1"
+          }
+        },
+        "footer-promotions-1": {
+          "type": "promotion",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "title": "Site-wide promotion",
+            "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>",
+            "button_label": "Optional button",
+            "button_link": "",
+            "color_scheme": "3"
+          }
+        },
+        "footer-promotions-2": {
+          "type": "promotion",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "title": "Site-wide promotion",
+            "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>",
+            "button_label": "Optional button",
+            "button_link": "",
+            "color_scheme": "2"
+          }
+        }
+      },
+      "block_order": [
+        "footer-promotions-0",
+        "footer-promotions-1",
+        "footer-promotions-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "hide_homepage": false,
+        "image_size": "wide"
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "footer-0": {
+          "type": "menu",
+          "settings": {
+            "title": "",
+            "menu": "footer",
+            "enable_account_link": false
+          }
+        },
+        "fbbff7b3-3f0c-46e6-9357-2e3ef0f1d4f2": {
+          "type": "menu",
+          "settings": {
+            "title": "",
+            "menu": "shopping-with-us",
+            "enable_account_link": false
+          }
+        },
+        "footer-2": {
+          "type": "payment",
+          "settings": {
+            "show_payment_icons": true,
+            "show_locale_selector": false,
+            "show_currency_selector": false,
+            "show_currency_flags": true
+          }
+        }
+      },
+      "block_order": [
+        "footer-0",
+        "fbbff7b3-3f0c-46e6-9357-2e3ef0f1d4f2",
+        "footer-2"
+      ],
+      "settings": {
+        "show_newsletter": false,
+        "newsletter_richtext": "<p>Subscribe today to hear first about our sales<\/p>",
+        "footer_main_menu": false,
+        "show_copyright": true,
+        "copyright_text": "",
+        "policies_menu": ""
+      }
+    }
+  },
+  "order": [
+    "df746357-ea27-4611-be2a-555b2a1a3bc2",
+    "975e17fb-663b-426b-9812-375b259a23dc",
+    "b67c466b-d14f-4855-9ade-f4e699c85d09",
+    "footer-promotions",
+    "footer"
+  ]
+}
