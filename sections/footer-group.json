@@ -41,13 +41,12 @@
         "sections--20235128176934__df746357-ea27-4611-be2a-555b2a1a3bc2-timer-1",
         "sections--20235128176934__df746357-ea27-4611-be2a-555b2a1a3bc2-button-1"
       ],
-      "disabled": true,
       "settings": {
         "layout": "banner",
         "full_width": true,
         "color_scheme": "2",
         "blur_image": false,
-        "overlay_color": "#000",
+        "overlay_color": "#000000",
         "overlay_opacity": 0,
         "lazyload_images": true
       }
